@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    
+        <nav>
+        <ul>
+            <li class="nav-li"><a href="#"> O MNIE</a></li>
+            <li class="nav-li"><a href="#">PORTFOLIO</a></li>
+            <li class="nav-li"><a href="#">KONTAKT</a></li>
+        </ul>
+    </nav>
+    <div class="omnie">
+     <h1>O MNIE</h1>
+    </div>
+
+     <div class="lion">
+        <img class="headerimage" src= "lew.jpeg" alt="lew">
+
+    </div>
+    <div class="paragraph">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga magnam repudiandae, harum sint officia earum rem quo minus obcaecati, temporibus unde sunt dolore voluptate perspiciatis ratione aut, aperiam fugiat? Sint accusamus officiis est, esse corporis libero beatae tenetur labore tempore vero neque ratione alias voluptatum possimus, quisquam consequatur doloremque, error quis iure! Quasi est, nisi doloribus possimus repellendus, dolore perferendis voluptatibus libero sint ducimus atque quaerat, qui rem quam illo alias nostrum. Provident aperiam quaerat recusandae beatae impedit ex, iste est consectetur suscipit tempore eius natus sit, aliquid quae amet laudantium error assumenda optio ipsam alias harum ducimus dicta dolor. Pariatur distinctio saepe vitae enim, consectetur ex nihil mollitia eos odio dolor, dignissimos fugiat recusandae incidunt cum porro officiis voluptatem perspiciatis! Aut inventore, corporis debitis sint cum suscipit pariatur magnam animi voluptas omnis expedita. Temporibus minus doloribus ducimus harum, sapiente perferendis ipsa ullam ipsam commodi accusamus corporis labore vel, eligendi tempora voluptatem pariatur recusandae? Consequatur consequuntur dolorem possimus quasi vel sequi aliquam ullam minus beatae nemo, id dolores sit sunt a dignissimos expedita quas laboriosam totam ratione quidem velit? Itaque laborum, minus dignissimos laudantium dolor culpa veniam dolorem sit tempore eum quibusdam, error dolorum cupiditate mollitia ratione aspernatur assumenda deserunt!
+        </p>
+
+    </div>
+</header>
+<section>
+    <div class="buttongrid">
+    <button>MOJE PORTFOLIO</button>
+</div>
+    <div class="portfoliogrid">
+        <h2 class="portfolioh2">PORTFOLIO</h2>
+    </div>
+    
+    <div class="container">
+        
+    <div class="box1"><img class="zdj1" src="photo-1.jpg" alt=""></div>
+    <div class="box2"><img class="zdj2" src="photo-2.jpg" alt=""></div>
+    <div class="box3"><img class="zdj3" src="photo-3.jpg" alt=""></div>
+    <div class="box4"><img class="zdj4" src="photo-4.jpg" alt=""></div>
+    <div class="box5"><img class="zdj5" src="photo-5.jpg" alt=""></div>
+    <div class="box6"><img class="zdj6" src="photo-6.jpg" alt=""></div>
+    <div class="box7"><img class="zdj7" src="photo-7.jpg" alt=""></div>
+    <div class="box8"><img class="zdj8" src="photo-8.jpg" alt=""></div>
+    <div class="box9"><img class="zdj9" src="photo-9.jpg" alt=""></div>
+    <div class="box10"><img class="zdj10" src="photo-10.jpg" alt=""></div>
+    <div class="box11"><img class="zdj11" src="photo-11.jpg" alt=""></div>
+    <div class="box12"><img class="zdj12" src="photo-12.jpg" alt=""></div>
+
+    </div>
+</section>
+<footer>
+        
+        
+    </div>
+    <div class="kontaktdiv">
+        <h2 class="kontakth2">KONTAKT</h2>
+    </div>
+    <div class="kontaktgrid">
+        <label for="your_name"></label>
+        <input class="input-block" type="text" id="your_name" placeholder="Imię">
+        <label for="email"></label>
+        <input class="input-block2" type="text" id="email" placeholder="Email">
+        <label for="tekst"></label>
+        <textarea class="text" name="text" id="text"  placeholder="Wiadomość"></textarea>
+    </div>
+    <div class="messagebutton">
+        <button>WYŚLIJ WIADOMOŚĆ</button>
+    </div>
+    <div class="social">
+        <div class="icon1"><img class="fb" src="fb.png" alt="facebook"></div>
+        <div class="icon2"><img class="in" src="in.png" alt="linkedin"></div>
+        <div class="icon3"><img class="twitter" src="twitter.png" alt="linkedin"></div>
+        <div class="icon4"><img class="tube" src="tube.png" alt="linkedin"></div>
+    </div>
+</footer>
+</body>
